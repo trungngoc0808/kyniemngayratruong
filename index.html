@@ -61,14 +61,21 @@
     </div>
 
     <!-- Video kỷ niệm -->
-    <div class="section">
-        <h2 class="section-title">🎥 Video Kỷ Niệm</h2>
-        <video controls>
+<div class="section">
+    <h2 class="section-title">🎥 Video Kỷ Niệm</h2>
+    
+    <div class="video-container">
+        <video controls id="event-video">
             <source src="video.mp4" type="video/mp4">
             Trình duyệt của bạn không hỗ trợ video.
         </video>
-        <p>Xem lại những khoảnh khắc đáng nhớ, nơi chúng ta đã từng cười, khóc và trưởng thành bên nhau.</p>
+        
+        <!-- Hiển thị thông báo nếu video chưa phát hành -->
+        <p id="video-notice"><strong>📢 Thông báo:</strong> Video của sự kiện hiện chưa được phát hành. Vui lòng quay lại sau khi sự kiện được tổ chức.</p>
     </div>
+
+    <p>Xem lại những khoảnh khắc đáng nhớ, nơi chúng ta đã từng cười, khóc và trưởng thành bên nhau.</p>
+</div
 
     <!-- Nhạc nền -->
     <div class="section">
